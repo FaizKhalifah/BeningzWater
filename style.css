@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url("/Kumpulan Gambar/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.brand{
+    width: 500px;
+    margin: 50px auto 10px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.slogan{
+    width: 500px;
+    margin: 0px auto 20px;
+    text-align: center;
+    color: white;
+}
+
+.navigation{
+    width: 500px;
+    margin: 50px auto 500px;
+    text-align: center;
+    
+}
+
+.navigation>ul>li{
+    display: inline;
+    margin: 0px 20px;
+}
+
+.navigation a{
+    background-color: rgb(80, 79, 79);
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+
+.navigation a:hover{
+    background-color: white;
+    color: black;
+}
+
+#product{
+    width: 750px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+
+#product h1{
+    padding-top: 30px;
+}
+
+#product li{
+    list-style: none;
+}
+
+#product div{
+    margin: 50px auto;
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(80, 79, 79);
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+#product div:hover{
+    transform: scale(1.1,1.1);
+}
+
+#product img{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#contact{
+    width: 500px;
+    box-sizing: border-box;
+    margin: 300px auto 50px;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
+#about{
+    width: 500px;
+    box-sizing: border-box;
+    margin: 10px auto 100px;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+
